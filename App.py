@@ -104,7 +104,7 @@ st.header("Recipe Recommendation System")
 st.subheader("Recommend recipes based on ingredients")
 user_input = st.text_input("Enter ingredients separated by commas", key='ingredient_input')
 # Dropdown to select dataset
-dataset_option = st.selectbox('Choose the dataset', ('All Recipes', 'Sri Lankan Recipes'))
+dataset_option = st.selectbox('Select the recipe dataset', ('All Recipes', 'Sri Lankan Recipes'))
 
 # Determine the dataset based on selection
 if dataset_option == 'All Recipes':
